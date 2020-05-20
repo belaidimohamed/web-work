@@ -1,0 +1,122 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<script src="form.js"></script>
+
+	<h2 style="margin-left: 500px; "> online registration form </h2><h2 style="margin-left: 100px;"> Twelfth international conferance on wireless and optical communications networks WOCN2015 </h2>
+	<span style="margin-left: 220px; ">(<font color=red>★</font>)<strong> mandatory field </strong> </span>
+	<fieldset style="margin-left: 225px;margin-right: 200px;">
+		<legend> Personal Infomation </legend>
+		<label class="la" for="fname"> <font color=red>★</font>First Name : </label>
+		<input class="in" type="text" id="fname"><br>
+
+		<label class="la" for="lname"> <font color=red>★</font>Last/Family Name : </label>
+		<input  class="in" type="text" id="lname"><br>
+
+		<label class="la" for="company"> <font color=red>★</font>Company/Organization : </label>
+		<input  class="in" type="text" id="company"><br>
+
+		<label class="la" for="fname"> <font color=red>★</font>I am a : </label>
+		<input style="margin-left: 140px;" type="radio" name="one" id="participant"  value="1">participant
+		<input style="margin-left: 140px;" type="radio" name="one" id="paper"  value="2">paper presenter<br>
+
+		<label class="la" for="uplo"> <font color=red>★</font>For paper presenter , please upload your presentation document :</label>
+		<input  type="text" id="uplo"><br>
+
+	</fieldset> 
+	<fieldset style="margin-left: 225px;margin-right: 200px;">
+		<legend> Address </legend>
+		<label class="la" for="city"> <font color=red>★</font>City : </label>
+		<input class="in" type="text" id="city"><br>
+		<label class="la" for="code"> <font color=red>★</font>Zip/Code postale : </label>
+		<input  class="in" type="text" id="code"><br>
+		<label class="la" for="country"> <font color=red>★</font>Country : </label>
+		<select class="in" id="country" >
+			<option value="tunisia">Tunisia</option>
+			<option value="maroc">Maroc</option>
+			<option value="algerie">Algerie</option>
+		</select> 
+	</fieldset>
+
+	<fieldset style="margin-left: 225px;margin-right: 200px;">
+		<legend> Contact information </legend>
+		<label class="la" for="email"> <font color=red>★</font>E-email : </label>
+		<input class="in" type="text" id="email"><br>
+		<label class="la" for="office"> <font color=red>★</font>Office phone number : </label>
+		<input  class="in" type="text" id="office"><br>
+		
+	</fieldset>
+	<br>
+
+	<div style=" margin-left: 300px;margin-right: 300px;">
+		<hr>
+		<p style="margin-left: 220px;">Tutorial registration (9th september) </p>
+		<hr>
+	</div><br>
+	<p style="margin-left: 230px;" ><strong>Conferance Registration includes tutorials<br>Please select the choice of tutorial(s) you would like to attend</strong></p>
+	<div id="all">
+		<div id="left">
+			<div id="oh">
+				<input style="margin-left: 140px;" type="radio" id="tuto1"  value="1">
+	 			<label  for="tuto1">Tutorial 1 (TE01) </label><br><span style="margin-left: 180px;">Morning
+			</div>
+			<div id="my">
+				<p style="padding:5px;"><strong>Design challenges and Quality of services in cyber physical systems</strong><br> by professor Vivek S Deshpande </p>
+			</div>
+		</div>
+		<div id="right">
+			<div id="oh">
+				<input style="margin-left: 100px;" type="radio" id="tuto2"  value="2">
+	 			<label for="tuto2">Tutorial 2 (TE02) </label><br><span style="margin-left: 140px;">Morning
+			</div>
+			<div id="my">
+				<p style="padding:5px;"><strong>Near shanon Limit channel codes : modified Turbo codes </strong><br> by professor Dr Prakash </p>
+			</div>
+		</div>	
+	</div><br>
+
+	<div style="margin-top: 100px; margin-left: 300px;margin-right: 300px;">
+		<br>
+		<hr>
+		<p style="margin-left: 220px;">Conferance registration (9th september) </p>
+		<hr>
+	</div><br>
+	<p style="margin-left: 230px;" ><strong>Please select one of the following choises :<br></strong></p>
+
+	<div style="margin-left: 230px;">
+		<table>
+                <tr><td><input type="radio" name="n" id="conf1" value="400" />AI-Advance Registration for International Participat (On or before 10<sup>th</sup>
+                of July) Author registration. <span style="color:blue">(International Authors registration. Deadline for author registration is July 15)</span></td>
+                <td>US$400.00</td></tr>
+                <tr><td><input type="radio" name="n" id="conf2" value="150"/>AO-Advance Registration for Local Participat (On or before 10<sup>th</sup>
+                of July) Author registration. <span style="color:blue">(Local Authors registration. Deadline for author registration is July 15)</span></td>
+                <td>US$150.00</td></tr>
+                <tr><td><input type="radio" name="n" id="conf3" value="410"/>LI-Late/ On-site Registration for International Participant(After 10<sup>th</sup>of July)</td>
+                <td>US$410.00</td></tr>
+                <tr><td><input type="radio" name="n" id="conf4" value="155"/>LO-Late/ On-site Registration for Local Participant(After 10<sup>th</sup>of July)</td>
+                <td>US$155.00</td></tr>
+            </table>
+	 	<div style=" margin-left: 60px;margin-right: 300px;">
+			<hr>
+			<p style="margin-left: 270px;">Additional options </p>
+			<hr>
+		</div><br>
+		<table>
+                <tr><td><input type="radio" name="a" id="conf5" value="15"/>EN-Extra copy of tutorial notes</td><td>US$15.00</td></tr>
+                <tr><td><input type="radio" name="a" id="conf6" value="50"/>EC-Extra copy of conference proceeding And or CDROM</td><td>US$50.00</td></tr>
+                <tr><td><input type="radio" name="a" id="conf7" value="50"/>ED-Accompanying guest to banquet dinner (September 10)</td><td>US$50.00</td></tr>
+                <tr><td><input type="radio" name="a" id="conf8" value="200"/>FE-Administration Fee</td><td>US$200.00</td></tr>
+            </table>
+	 	<div style="margin-left: 400px;"><button onclick="validation()" type="submit"> register</button></div>
+	</div>
+	<dialog id="findialog">
+	  <p>Total registration fees is to paid : <span id="fee"></span></p> 
+	  <div style="margin-left:50px;"><p id="fee1"><p id="fee2"></div>
+   </dialog>
+   <dialog id="debdialog">
+	  <p>  Field of " <span id="champ"></span>" is empty , please fill it ! </p> 
+   </dialog>
+
+</body>

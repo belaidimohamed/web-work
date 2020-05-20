@@ -1,0 +1,14 @@
+.table{
+    border-collapse: collapse;
+    text-align:center;
+    border: 1px groove black;
+    width: 40%;
+}
+tr, td{
+    border: 1px groove black;
+    padding: 10px;
+}
+.th {
+    background-color: #00FFCC;
+    font-family: arial;
+}

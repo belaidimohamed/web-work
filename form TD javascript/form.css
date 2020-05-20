@@ -1,0 +1,35 @@
+#all{
+	margin-left: 227;
+	margin-right: 227px;}
+#left{
+	background-color: rgb(10,40,150) ;
+	border-style: groove;
+	border-color: rgb(10,40,150); 
+	float: left;
+	margin-right:1px; 
+	border-width: 2.5px;
+
+}
+#right{
+	background-color: rgb(10,40,150); 
+	border-width: 2.5px;
+	border-style: groove;
+	border-color: rgb(10,40,150); 
+	float: right;
+	margin-left:1px; 
+}
+#my{
+	min-width: 400px;
+	min-height: 80px;
+	background-color: white ;
+}
+#oh{
+	max-height: 30px;
+	color: white ; font-weight: bold;
+}
+.la{
+	margin-left: 40px;
+}
+.in{
+
+}
